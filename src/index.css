@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('/fonts/GeneralSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('/fonts/GeneralSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('/fonts/GeneralSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('/fonts/GeneralSans-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('/fonts/GeneralSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('/fonts/GeneralSans-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  background: #333;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 100px;
+}
+
+.shadow-red {
+  box-shadow: 0 0 15px #f87171cc;
+}
+
+.shadow-yellow {
+  box-shadow: 0 0 15px #facc15cc;
+}
+
+.shadow-green {
+  box-shadow: 0 0 15px #4ade80cc;
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: stretch;
+}
+
+.slick-slide {
+  height: auto !important;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
+
+.bg-noise {
+  position: relative;
+  overflow: hidden;
+  background-image: url('/assets/contact/opt_noise.webp');
+  background-repeat: repeat;
+  background-size: 100px 100px;
+}
+
+.bg-pattern-soft {
+  overflow: hidden;
+  background-image: url('/assets/pattern-soft.png');
+  background-repeat: repeat;
+  background-size: 100px 100px;
+}
+
+.bg-pattern-packed {
+  overflow: hidden;
+  background-image: url('/assets/pattern-packed.png');
+  background-repeat: repeat;
+  background-size: 100px 100px;
+}
+
+.clip-hex {
+  clip-path: polygon(6.5% 25%, 50% 0, 93.5% 25%, 93.5% 75%, 50% 100%, 6.5% 75%);
+}
+
+.clip-triangle {
+  clip-path: polygon(50% 0%, 0% 86%, 100% 86%);
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+  will-change: opacity;
+}
+
+.fade-in:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.fade-in:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+.fade-in:nth-of-type(3) {
+  animation-delay: 0.4s;
+}
+.fade-in:nth-of-type(4) {
+  animation-delay: 0.6s;
+}
+.fade-in:nth-of-type(5) {
+  animation-delay: 0.8s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

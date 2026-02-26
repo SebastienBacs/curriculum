@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "youtube",
+    "color": "red",
+    "title": "Multimedia enjoyer",
+    "text": "I love watching all kind of online multimedia, going from twitch streams, movies and youtube videos to DIY or programming tutorials !"
+  },
+  {
+    "icon": "plane",
+    "color": "blue",
+    "title": "Globetrotter",
+    "text": "My dream is to visit Tokyo and Texas. I've already traveled to quite a few country, Australia and California included !"
+  },
+  {
+    "icon": "dice",
+    "color": "green",
+    "title": "Roleplay enthusiast",
+    "text": "Recently started playing Pathfinder with a few friends and it was awesome! I would definitly like to try some D&D as well."
+  },
+  {
+    "icon": "gamepad",
+    "color": "yellow",
+    "title": "Confirmed gamer",
+    "text": "I enjoy playing games with on steam! I usually play roguelike games such as: gunfire reborn, hades, Spiritfall. Talking about upcoming games is something I love to do !"
+  },
+  {
+    "icon": "music",
+    "color": "purple",
+    "title": "Music junky",
+    "text": "Music takes a big part in my daily activities, I tend to focus way better when listening to some good music. I can appreciate all kind of genres going from classic music to metal or hardstyle."
+  }
+]

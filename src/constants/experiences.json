@@ -1,0 +1,159 @@
+[
+  {
+    "id": 0,
+    "name": "Chat3D",
+    "pos": "Fullstack Engineer",
+    "duration": "2025 - Present",
+    "durationAmount": "7+ months",
+    "location": "France",
+    "contract": "Full-time",
+    "type": "Fixed",
+    "sector": "3D software",
+    "icon": "/assets/experience/opt_chat3d.webp",
+    "image": "/assets/me/opt_5.webp",
+    "technologies": ["Vue", "Nuxt", "Laravel", "Typescript", "Git", "Tailwindcss", "SQL"],
+    "projects": [{ "link": "https://app.chat3d.ai/login", "text": "App" }],
+    "superShortDescriptions": ["Front modernization", "Ensure code quality"],
+    "shortDescriptions": [
+      "Complete front overhaul and use of modern technologies along with ThreeJS",
+      "Improve code quality controls on back & front projects and fix existing inconsistencies"
+    ],
+    "longDescription": [
+      "I joined this startup and got to work very quickly improving their existing code base by fixing no less than 160 failing back-end test cases and around 250 frontend typescript & linting issues.",
+      "We were a small team of 2 developers but managed to take up another big challenge, which was a complete overhaul of the front-end interface integrating 3D modeling. This was also the opportunity to migrate the frontend technologies to something modern, easy to use and more maintainable."
+    ]
+  },
+  {
+    "id": 1,
+    "name": "DevBase",
+    "pos": "Fullstack Developer",
+    "duration": "2022 - Present",
+    "durationAmount": "3+ years",
+    "location": "France",
+    "contract": "Part-time",
+    "type": "Permanent",
+    "sector": "SaaS",
+    "icon": "/assets/experience/opt_devbase.webp",
+    "image": "/assets/me/opt_4-desktop.webp",
+    "technologies": ["Node", "React", "Storybook", "Typescript", "Git", "Tailwindcss", "SQL"],
+    "projects": [
+      { "link": "https://storybook.devbase.fr/?path=/docs/home--docs", "text": "Component Library" },
+      { "link": "https://auth.devbase.fr/my-apps", "text": "Products Hub" }
+    ],
+    "superShortDescriptions": ["React component library", "Tools interfaces", "Platato showcase site"],
+    "shortDescriptions": [
+      "Design and integrate a full fledged react component library",
+      "Build up interfaces for various back office tools",
+      "Create showcase site for Platato (most successfull product)"
+    ],
+    "longDescription": [
+      "I joined a friend’s project to help develop his first product, focusing mainly on the front-end using React, for his client: Analab. The goal was to deliver a scalable product that allows them to manage their machines and components through a web application.",
+      "Once the first version of the platform was successfully completed, I decided to challenge myself by converting most of the components from that project into a fully fledged component library. Over time, I improved it by transitioning from plain CSS and JavaScript to Tailwind CSS and TypeScript. It is now used in most of the projects we deliver.",
+      "We are continuing to work on new products and enhance existing ones, with the goal of providing high-quality, intuitive tools for various domains such as food catering, freelancers, retail stores, schools, and call centers."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Monizze",
+    "pos": "Fullstack Developer",
+    "duration": "2022 - 2025",
+    "durationAmount": "3 years",
+    "location": "Brussels",
+    "contract": "Full-time",
+    "type": "Permanent",
+    "sector": "Fintech",
+    "icon": "/assets/experience/opt_monizze.webp",
+    "image": "/assets/me/opt_3.webp",
+    "technologies": [
+      "PHP",
+      "Vue 3",
+      "Storybook",
+      "Typescript",
+      "Git",
+      "Laravel",
+      "Kubernetes",
+      "Tailwindcss",
+      "SQL",
+      "PHPUnit",
+      "Figma",
+      "Jira"
+    ],
+    "projects": [
+      { "link": "https://account.monizze.be/", "text": "Monizze tools" },
+      { "link": "https://www.monizze.be/en/employers/rewardflex/", "text": "Mobility platform" }
+    ],
+    "superShortDescriptions": ["Migrate & maintain back-office", "Component library"],
+    "shortDescriptions": [
+      "Migrate back-office to a modern framework and improve functionalities & bug fixing",
+      "Integrate a reusuable component library used accros new projects"
+    ],
+    "longDescription": [
+      "When I joined the Monizze team, I worked on transitioning their back-office system, along with the entire ordering, invoicing, and card supply system. This involved primarily back-end development and strengthening the system through test coverage.",
+      "After that project, I was assigned to a new initiative that allows companies to order mobility vouchers for their employees through a new platform. This platform also includes an AI-powered chatbot designed to assist HR teams in meeting the legal requirements to order these newly introduced vouchers in Belgium.",
+      "Alongside this new platform, I developed a reusable component library to help Monizze implement their new design system. This library is used not only in the new platform but also across all existing projects. The quality of the components and code is of utmost importance, as any modification to a single component can affect several projects. To ensure long-term maintainability, I set up tools and workflows that preserve code quality even after my mission ended."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Capgemini ~ BNP Paribas",
+    "pos": "Fullstack Developer",
+    "duration": "2021 - 2022",
+    "durationAmount": "1 year",
+    "location": "Brussels",
+    "contract": "Full-time",
+    "type": "Permanent",
+    "sector": "Banking",
+    "icon": "/assets/experience/opt_capgemini.webp",
+    "image": "/assets/me/opt_2.webp",
+    "technologies": [
+      "Java",
+      "React",
+      "Git",
+      "Spring Boot",
+      "Maven",
+      "Hibernate",
+      "Jenkins",
+      "Kibana",
+      "SQL",
+      "JUnit",
+      "Jira"
+    ],
+    "projects": [],
+    "superShortDescriptions": ["Interface onboarding platform", "Three-layer java architecture"],
+    "shortDescriptions": [
+      "Take ownership of the interface integration of a premium customer onboarding platform",
+      "Implement a three-layer Java architecture to improve scalability and maintenance"
+    ],
+    "longDescription": [
+      "As a Capgemini consultant, I had the opportunity to work in the banking industry at BNP Paribas. Working there taught me to be highly disciplined with testing and quality requirements, and to thoroughly document my work to ensure effective collaboration with other teams.",
+      "My mission was to integrate both the front-end and back-end of a premium onboarding platform for high-value customers with a specific initial budget. The onboarding flow involved communication with internal tools and close coordination with other teams within the bank.",
+      "I was supported by several senior developers who taught me a great deal about Java and React through peer programming, as these technologies were relatively new to me at the time. Thanks to them and that experience, I grew confident in working with both technologies."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Efficy",
+    "pos": "Project Developer",
+    "duration": "2019 - 2021",
+    "durationAmount": "2 years",
+    "location": "Brussels",
+    "contract": "Full-time",
+    "type": "Permanent",
+    "sector": "CRM",
+    "icon": "/assets/experience/opt_efficy.webp",
+    "image": "/assets/me/opt_1.webp",
+    "technologies": ["Javascript", "Macro", "Delphi", "SASS", "OOP"],
+    "projects": [{ "link": "https://www.efficy.com/fr/", "text": "CRM product" }],
+    "superShortDescriptions": ["Customize exisiting CRM", "Ensure data quality", "Qliksense reports"],
+    "shortDescriptions": [
+      "Customize standard CRM database and add features to client needs",
+      "Ensure data quality through massive data synchronizations",
+      "Present dynamic SQL reports through Qliksense"
+    ],
+    "longDescription": [
+      "My first professional experience at Efficy was a steep learning curve, as I had to quickly get familiar with the ins and outs of their CRM tool. The platform offered a wide range of functionalities, and the method for customizing the standard product was quite unique.",
+      "I worked closely with their client to customize and extend the CRM to meet specific business needs. Some of these requests required complex data synchronization and manipulation on an already extensive system, with more than 300 tables in the standard version. This experience significantly improved my database knowledge.",
+      "The technologies used were quite outdated, as we worked with a custom macro-based structure for the front-end and object-oriented programming in Delphi for the back-end."
+    ]
+  }
+]

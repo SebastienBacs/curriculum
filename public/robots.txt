@@ -1,0 +1,7 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Optional: disallow build or dev paths
+Disallow: /node_modules/
+Disallow: /src/

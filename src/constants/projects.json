@@ -1,0 +1,141 @@
+[
+  {
+    "title": "DevBase - Component Library",
+    "desc": "This library contains the required components to build a solid back-office tool, currently used for 7 digital products within DevBase. The minimalistic design and focus towards readability and accessibility makes the interface very scaleable.",
+    "subdesc": "Initially built with simple ReactJS and CSS, it has evolved towards strict typing with typescript and scaleable design with Tailwind using the most optimal loading techniques react has to offer.",
+    "href": "https://storybook.devbase.fr/?path=/docs/home--docs",
+    "hrefText": "Check library",
+    "logo": "/assets/project/opt_library.webp",
+    "logoStyle": {
+      "backgroundColor": "#2E2C6F77",
+      "border": "0.2px solid #2E2C6FFF",
+      "boxShadow": "0px 0px 60px 0px #635BFF4D"
+    },
+    "spotlight": "/assets/spot/opt_purple.webp",
+    "tags": [
+      {
+        "id": 1,
+        "name": "React.js",
+        "path": "/assets/technology/react.svg"
+      },
+      {
+        "id": 2,
+        "name": "TailwindCSS",
+        "path": "assets/technology/tailwindcss.png"
+      },
+      {
+        "id": 3,
+        "name": "TypeScript",
+        "path": "/assets/technology/typescript.png"
+      },
+      {
+        "id": 4,
+        "name": "Framer Motion",
+        "path": "/assets/technology/storybook.svg"
+      }
+    ]
+  },
+  {
+    "title": "Platato - Food ordering system",
+    "desc": "Platato is an application that enables restaurants to easily set up an online and in-store ordering system through multiple channels (phone, self-service kiosks, and desktop devices). The service improves order management efficiency while increasing visibility.",
+    "subdesc": "This showcase website was made under Vue 3 using nuxt, typescript and tailwind and was entirely designed by me.",
+    "href": "https://platato.com/",
+    "hrefText": "Check live website",
+    "logo": "/assets/project/platato.png",
+    "logoStyle": {
+      "backgroundColor": "#472A2877",
+      "border": "0.2px solid #472A28FF",
+      "boxShadow": "0px 0px 60px 0px #472A28"
+    },
+    "spotlight": "/assets/spot/opt_orange.webp",
+    "tags": [
+      {
+        "id": 1,
+        "name": "VueJS",
+        "path": "/assets/technology/vue.png"
+      },
+      {
+        "id": 2,
+        "name": "TailwindCSS",
+        "path": "/assets/technology/tailwindcss.png"
+      },
+      {
+        "id": 3,
+        "name": "Typescript",
+        "path": "/assets/technology/typescript.png"
+      },
+      {
+        "id": 4,
+        "name": "Nuxt",
+        "path": "/assets/technology/nuxt.svg"
+      }
+    ]
+  },
+  {
+    "title": "FinWork - Scholar Submissions & Internship",
+    "desc": "FinWork serves as a bridge between the teacher and the student, teacher can create tasks and evaluate the submissions of the student and follow-up on their internship tasks. It was based on an outdated tool used by my high school.",
+    "subdesc": "This project has been achieved using Laravel as a backend framework and VueJS as the frontend one. The technical challenge lies in the building up and displaying of the task forms created by the teacher.",
+    "href": "https://www.youtube.com/watch?v=gh_J-BIHdF4",
+    "hrefText": "Check demo video",
+    "logo": "/assets/project/finwork.png",
+    "logoStyle": {
+      "backgroundColor": "#2E2C6F77",
+      "border": "0.2px solid #2E2C6FFF",
+      "boxShadow": "0px 0px 60px 0px #2F6DB54D"
+    },
+    "spotlight": "/assets/spot/opt_blue.webp",
+    "tags": [
+      {
+        "id": 1,
+        "name": "VueJS",
+        "path": "/assets/technology/vue.png"
+      },
+      {
+        "id": 2,
+        "name": "Laravel",
+        "path": "assets/technology/laravel.png"
+      },
+      {
+        "id": 3,
+        "name": "Javascript",
+        "path": "/assets/technology/javascript.png"
+      },
+      {
+        "id": 4,
+        "name": "PHP",
+        "path": "/assets/technology/php.svg"
+      }
+    ]
+  },
+  {
+    "title": "Sciensano - Allergy Chart Converter",
+    "desc": "This platform allowed scientist within sciensano to convert their data of air allergies from a CSV format to a visual SVG generated graph. Once generated, they can be integrated into any website through a secured API key.",
+    "subdesc": "This task was assigned to me during my internship, I built the front platform using VueJS and the chart conversion itself was done through a NodeJS. Both technologies were wrapped into AdonisJS",
+    "href": "https://youtu.be/bFG_LNTERYE?t=49",
+    "hrefText": "Check demo video",
+    "logo": "/assets/project/sciensano.png",
+    "logoStyle": {
+      "backgroundColor": "#2F6F4E77",
+      "border": "0.2px solid #2F6F4EFF",
+      "boxShadow": "0px 0px 60px 0px rgba(35, 131, 96, 0.3)"
+    },
+    "spotlight": "/assets/spot/opt_green.webp",
+    "tags": [
+      {
+        "id": 1,
+        "name": "VueJS",
+        "path": "/assets/technology/vue.png"
+      },
+      {
+        "id": 2,
+        "name": "NodeJS",
+        "path": "assets/technology/node.png"
+      },
+      {
+        "id": 3,
+        "name": "Javascript",
+        "path": "assets/technology/javascript.png"
+      }
+    ]
+  }
+]

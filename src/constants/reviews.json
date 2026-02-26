@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Cédric Pierrard",
+    "position": "CEO - Efficy",
+    "image": "assets/review/opt_pierrard.webp",
+    "logo": "assets/experience/opt_efficy.webp",
+    "text": "In the CRM space, his ability to quickly understand and translate client needs into effective, scalable solutions sets him apart. He communicates clearly with both technical teams and stakeholders, ensuring alignment at every stage. His positive energy, proactive mindset, and reliability make him an invaluable team member and a trusted partner in delivering client-centric solutions.",
+    "stars": 5
+  },
+  {
+    "name": "Sebastien Couturiaux",
+    "position": "CTO - Monizze",
+    "image": "assets/review/opt_couturiaux.webp",
+    "logo": "assets/experience/opt_monizze.webp",
+    "text": "Sebastien is a full-stack developer, comfortable with both front-end and back-end work. He consistently delivers what is expected with steady motivation and enthusiasm. His communication is smooth and clear, and he approaches every challenge with a decidedly positive attitude. A real pleasure to work with him.",
+    "stars": 5
+  },
+  {
+    "name": "Théo Ordrenneau",
+    "position": "CEO - DevBase",
+    "image": "assets/review/opt_ordrenneau.webp",
+    "logo": "assets/experience/opt_devbase.webp",
+    "text": "Working with Sebastien is a pleasure ! He consistently deliver clean, efficient code on schedule and adapts seamlessly to shifting project requirements. Thanks to his expertise, I am nowadays able to rapidly build new applications with the help of the library he helped me set up. I highly recommend him to anyone seeking a skilled and reliable developer.",
+    "stars": 3
+  },
+  {
+    "name": "Felix Balmonet",
+    "position": "CEO - Chat3D",
+    "image": "assets/review/opt_balmonet.webp",
+    "logo": "assets/experience/opt_chat3d.webp",
+    "text": "We keep a very positive impression of Sébastien from his time with our company. He was consistently proactive, pleasant to collaborate with on a daily basis, and demonstrated strong interpersonal skills, especially valuable in our fully remote work environment, where he still managed to bring positive energy to the team. He successfully delivered on the projects entrusted to him, notably ensuring strong visual consistency between design mockups and the final implemented versions.",
+    "stars": 3
+  }
+]
