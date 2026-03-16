@@ -11,6 +11,8 @@ const files = [
   { folder: 'me', name: '4.png', output: 'opt_4-mobile.webp', x: 200, y: 300, quality: 40 },
   { folder: 'about', name: 'seb.jpg', output: 'opt_seb.webp', x: 210, y: 210, quality: 80 },
   { folder: 'about', name: 'seb.jpg', output: 'opt_seb-mobile.webp', x: 180, y: 180, quality: 80 },
+  { folder: '', name: 'background.png', output: 'opt_background.webp', x: 1670, y: 911, quality: 100 },
+  { folder: '', name: 'background-mobile.png', output: 'opt_background-mobile.webp', x: 433, y: 823, quality: 100 },
   // { name: 'intro.webp', format: 500, quality: 100 },
   // { name: 'intro_computer.webp', format: 500, quality: 100 },
   // { name: 'intro_phone.webp', format: 500, quality: 100 },

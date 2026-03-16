@@ -99,37 +99,41 @@ const Home = () => {
             to delivery and long-term evolution and maintenance. Quality and transparency is what drives me!
           </Text>
           <div className="flex flex-wrap justify-center sm:justify-start px-10 sm:px-0 gap-4 mt-5">
-            <button
-              className="w-10 h-10 bg-php bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
-              onClick={() => setTech(tech === 'php' ? 'default' : 'php')}
-              tab-index="10">
-              <img src="/assets/technology/php_white.svg" width="40" height="40" alt="php" />
-            </button>
-            <button
-              className="w-10 h-10 bg-vue bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
-              onClick={() => setTech(tech === 'vue' ? 'default' : 'vue')}>
-              <img src="/assets/technology/vue_white.svg" width="40" height="40" alt="vue" />
-            </button>
-            <button
-              className="w-10 h-10 bg-react bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
-              onClick={() => setTech(tech === 'react' ? 'default' : 'react')}>
-              <img src="/assets/technology/react_white.svg" width="40" height="40" alt="react" />
-            </button>
-            <button
-              className="w-10 h-10 bg-java bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
-              onClick={() => setTech(tech === 'java' ? 'default' : 'java')}>
-              <img src="/assets/technology/java_white.svg" width="40" height="40" alt="java" />
-            </button>
-            <button
-              className="w-10 h-10 bg-sql bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
-              onClick={() => setTech(tech === 'sql' ? 'default' : 'sql')}>
-              <img src="/assets/technology/sql_white.svg" width="40" height="40" alt="sql" />
-            </button>
-            <button
-              className="w-10 h-10 bg-node bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
-              onClick={() => setTech(tech === 'node' ? 'default' : 'node')}>
-              <img src="/assets/technology/node_white.svg" width="40" height="40" alt="node" />
-            </button>
+            <div className="flex gap-4">
+              <button
+                className="w-10 h-10 bg-php bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
+                onClick={() => setTech(tech === 'php' ? 'default' : 'php')}
+                tab-index="10">
+                <img src="/assets/technology/php_white.svg" width="40" height="40" alt="php" />
+              </button>
+              <button
+                className="w-10 h-10 bg-vue bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
+                onClick={() => setTech(tech === 'vue' ? 'default' : 'vue')}>
+                <img src="/assets/technology/vue_white.svg" width="40" height="40" alt="vue" />
+              </button>
+              <button
+                className="w-10 h-10 bg-react bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
+                onClick={() => setTech(tech === 'react' ? 'default' : 'react')}>
+                <img src="/assets/technology/react_white.svg" width="40" height="40" alt="react" />
+              </button>
+            </div>
+            <div className="flex gap-4">
+              <button
+                className="w-10 h-10 bg-java bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
+                onClick={() => setTech(tech === 'java' ? 'default' : 'java')}>
+                <img src="/assets/technology/java_white.svg" width="40" height="40" alt="java" />
+              </button>
+              <button
+                className="w-10 h-10 bg-sql bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
+                onClick={() => setTech(tech === 'sql' ? 'default' : 'sql')}>
+                <img src="/assets/technology/sql_white.svg" width="40" height="40" alt="sql" />
+              </button>
+              <button
+                className="w-10 h-10 bg-node bg-opacity-40 backdrop-blur rounded-lg transition-all duration-300 hover:bg-opacity-80"
+                onClick={() => setTech(tech === 'node' ? 'default' : 'node')}>
+                <img src="/assets/technology/node_white.svg" width="40" height="40" alt="node" />
+              </button>
+            </div>
           </div>
           <img
             src="/assets/me/opt_4-mobile.webp"
@@ -143,7 +147,7 @@ const Home = () => {
             sizes="200px"
             width="200"
             height="300"
-            className="block md:hidden w-[200px] mt-5 mx-auto"
+            className="block md:hidden w-1/2 mt-5 mx-auto flex-shrink-0"
           />
         </div>
         <div className="hidden lg:flex flex-col gap-4 text-left relative">

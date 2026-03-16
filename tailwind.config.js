@@ -43,7 +43,7 @@ export default {
       backgroundImage: {
         'project-button': 'linear-gradient(to right,rgba(255, 255, 255, 0.1) 0%,rgba(255, 255, 255, 0.025) 100%)',
         'title-gradient': 'linear-gradient(to right, #BEC1CF 60%, #D5D8EA 60%, #D5D8EA 100%)',
-        'home-gradient': 'linear-gradient(to bottom, #3a6073, #16222a)',
+        'home-gradient': 'linear-gradient(to bottom, #2b2b2b, #111111)',
       },
       borderRadius: {
         'home-radius': '20px',
